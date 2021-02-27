@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/white"
+    android:layout_gravity="bottom">
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang"
+        android:onClick="onClick"
+        android:drawableStart="@drawable/ic_about"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/textColorDesc"/>
+
+    <TextView
+        android:id="@+id/tv_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bantuan"
+        android:drawableStart="@drawable/ic_help"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:textSize="12sp"
+        android:onClick="onClick"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/textColorDesc"/>
+
+    <TextView
+        android:id="@+id/tv_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:drawableStart="@drawable/ic_out"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/textColorDesc"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EF883D</color>
+    <color name="colorPrimaryDark">#EF883D</color>
+    <color name="colorAccent">#26C723</color>
+    <color name="textColor">#29291E</color>
+    <color name="textColorDesc">#696868</color>
+    <color name="textColorScore">#26C723</color>
+    <color name="textScoreMerah">#E74343</color>
+    <color name="cardColor">#F5F5F5</color>
+</resources>

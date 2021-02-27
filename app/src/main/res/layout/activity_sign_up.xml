@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".View.Activity.SignUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daftar"
+        android:textSize="30sp"
+        android:textColor="@color/textColor"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Lengkap"
+        android:textSize="12sp"
+        android:textColor="@color/textColor"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"/>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="makhalibagas"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/textColorDesc"
+        android:drawableStart="@drawable/ic_profile"
+        android:background="@drawable/background_et"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sekolah"
+        android:textSize="12sp"
+        android:textColor="@color/textColor"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+
+    <EditText
+        android:id="@+id/et_sekolah"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Masukan nama sekolah"
+        android:inputType="text"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/textColorDesc"
+        android:drawableStart="@drawable/ic_sekolah"
+        android:background="@drawable/background_et"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="12sp"
+        android:textColor="@color/textColor"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Masukan Alamat Email"
+        android:inputType="text"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/textColorDesc"
+        android:drawableStart="@drawable/ic_email"
+        android:background="@drawable/background_et"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Ponsel"
+        android:textSize="12sp"
+        android:textColor="@color/textColor"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+
+    <EditText
+        android:id="@+id/et_ponsel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Masukan Nomor Ponsel"
+        android:inputType="number"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/textColorDesc"
+        android:drawableStart="@drawable/ic_telepon"
+        android:background="@drawable/background_et"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="12sp"
+        android:textColor="@color/textColor"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:hint="Masukan Password"
+        android:inputType="textPassword"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/textColorDesc"
+        android:drawableStart="@drawable/ic_locked"
+        android:background="@drawable/background_et"/>
+
+    <Button
+        android:id="@+id/bt_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/background_bt"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="50dp"
+        android:text="Daftar"
+        android:onClick="onClick"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/nunito_bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah Punya Akun?"
+            android:textSize="12sp"
+            android:textColor="@color/textColor"
+            android:fontFamily="@font/nunito_bold"/>
+        <TextView
+            android:id="@+id/tv_masuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk Sekarang"
+            android:textSize="12sp"
+            android:layout_gravity="end"
+            android:onClick="onClick"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/nunito_bold"/>
+    </LinearLayout>
+</LinearLayout>

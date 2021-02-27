@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".View.Activity.DetailMateriActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:background="@drawable/ic_pattern"
+        app:contentInsetStart="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt_back"
+                android:layout_width="24dp"
+                android:onClick="onClick"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/abc_vector_test"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="PrivateResource" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:text="@string/tb_pengertian"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/bt_menu"
+                android:layout_width="5dp"
+                android:layout_height="19dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="onClick"
+                android:background="@drawable/ic_menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/judul"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <TextView
+        android:id="@+id/bab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bab_1"
+        android:textColor="@color/textColorDesc"
+        android:textSize="12sp"
+        android:fontFamily="@font/nunito_bold"
+        app:layout_constraintTop_toBottomOf="@id/judul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/img_pengertian"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:riv_corner_radius="10dp"
+        tools:src="@drawable/imgpengertian"
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toBottomOf="@id/bab"/>
+
+    <TextView
+        android:id="@+id/tv_pengertian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/pengertian"
+        app:layout_constraintTop_toBottomOf="@id/img_pengertian"
+        android:fontFamily="@font/nunito_regular"
+        android:textSize="12sp"
+        android:textAlignment="textStart"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginTop="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.makhalibagas.sculpture">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.Activity.DetailTutorialActivity"></activity>
+        <activity android:name=".View.Activity.PembahasanActivity" />
+        <activity android:name=".View.Activity.HasilActivity" />
+        <activity android:name=".View.Activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.Activity.QuestionActivity">
+
+        </activity>
+        <activity android:name=".View.Activity.QuizActivity" />
+        <activity android:name=".View.Activity.UjianActivity" />
+        <activity android:name=".View.Activity.TutorialActivity" />
+        <activity android:name=".View.Activity.MateriActivity" />
+        <activity android:name=".View.Activity.HelpActivity" />
+        <activity android:name=".View.Activity.DetailMateriActivity" />
+        <activity android:name=".View.Activity.AboutActivity" />
+        <activity android:name=".View.Activity.SignUpActivity" />
+        <activity android:name=".View.Activity.LoginActivity" />
+        <activity android:name=".View.Activity.MainActivity" />
+    </application>
+
+</manifest>

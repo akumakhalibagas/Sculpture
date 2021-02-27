@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Sculpture</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Patung bunga terjual mahal</string>
+    <string name="desc">Patung bunga dijual mahal karena dianggap patung aestetik buat kaum</string>
+    <string name="quiz">Quiz</string>
+    <string name="ujian">Ujian</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="materi">Materi</string>
+    <string name="name">Diva Ayu</string>
+    <string name="hello">Hello,</string>
+    <string name="berita_seni">Berita Seni</string>
+    <string name="content_description">background</string>
+    <string name="date">10/01/2020</string>
+    <string name="ujian_bab_1">Ujian BAB 1</string>
+    <string name="nilai">100</string>
+    <string name="ujian_bab_2">Ujian BAB 2</string>
+    <string name="nilai_merah">50</string>
+    <string name="ujian_bab_3">Ujian BAB 3</string>
+    <string name="ukir_jepara">Ukir Jepara</string>
+    <string name="diva_ayu">Diva Ayu</string>
+    <string name="school">SMK Telkom Purwokerto</string>
+    <string name="about">Tentang Kami</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="keluar">Keluar</string>
+    <string name="pengertian_seni_ukir">Pengertian Seni Ukir</string>
+    <string name="pengertian">Alam yang kaya raya telah memberi inspirasi kepada masyarakat yang berpikir kreatif, seperti tercermin dari seni ukir nusantara yang kemudian melahirkan beragam jenis, tergantung kepada kreativitas dan daya dukung alam yang kaya. Khusus untuk seni ukir nusantara yang berbahan dasar kayu, semakin beragam karena didukung oleh alam nusantara yang memiliki hutan tropis sehingga menghasilkan kayu yang bisa dipakai sebagai bahan dasar untuk mengukir. Berbeda dengan seni ukir modern, seni ukir nusantara yang tradisional lahir tidak saja sebagai karya seni dan tujuan untuk berkesenian, melainkan sangat terikat erat dengan berbagai persoalan yang tumbuh dan berkembang di masyarakat tradisional.</string>
+    <string name="bab_1">BAB 1</string>
+    <string name="judul">Pengertian Seni Ukir</string>
+    <string name="tb_pengertian">Pengertian</string>
+    <string name="soal">Ukiran dipakai semata-mata sebagai hiasan dan tidak mengandung makna sama sekali disebut…</string>
+
+    <string name="masuk">Masuk</string>
+    <string name="nomor">Nomor Telepon / Email</string>
+    <string name="daftar">Daftar</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae urna amet, sed sagittis penatibus nunc urna suspendisse. Tortor tincidunt fermentum pharetra et ullamcorper diam eu. Dignissim lorem ultrices urna lacus orci, commodo sed pharetra. Pellentesque ultricies turpis morbi enim quis blandit id.</string>
+    <string name="pernyataan">Apakah kamu sudah yakin dengan jawabanmu ? Jangan lupa periksa kembali sebelum mengumpulkan jawaban.</string>
+    <string name="selesai">Yeah... kamu sudah mengumpulkan.</string>
+</resources>
