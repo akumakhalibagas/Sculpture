@@ -1,7 +1,4 @@
-# Aplikasi-Sculpture
-Aplikasi seni (onprogres) quiz belum selesai
-
-# Design By
+# Design
 
 https://dribbble.com/didikurniawan
 
